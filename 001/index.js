@@ -1,5 +1,6 @@
 
-const app = require('./src/app')
+const App = require('./src/app')
 
+const app=new App()
 
-app.listen(8000, () => console.log('rdy stdy go'))
+app.app.listen(8000, () => console.log('rdy stdy go'))
