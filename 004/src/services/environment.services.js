@@ -6,4 +6,6 @@ function getEnvironment(){
     return environment
 }
 
+// остальные функции?
+
 module.exports={getEnvironment}
